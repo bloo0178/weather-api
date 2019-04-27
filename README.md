@@ -1,6 +1,6 @@
 # Description 
 
-Sandbox to experiment with Serverless framework. Currently set to use serverless-http so an Express app/ function can be wrapped and used with any serverless provider (currently AWS).
+API for weather client. Used to manipulate the lat/ long request from the client, and also to hide the API key for the weather service.
 
 # Installation
 
