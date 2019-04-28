@@ -1,6 +1,6 @@
 # Description 
 
-API for weather client. Used to manipulate the lat/ long request from the client, and also to hide the API key for the weather service.
+API for weather client. Used to manipulate the lat/ long request from the client, and also to hide the API key for the weather service (OpenWeatherMap).
 
 # Endpoint Return Examples
 
@@ -18,7 +18,7 @@ API for weather client. Used to manipulate the lat/ long request from the client
 
 # Use
 
-- EXAMPLE ENDPOINT: https://buceh2uvmj.execute-api.us-east-1.amazonaws.com/dev/?input=4gal
+- EXAMPLE ENDPOINT: https://buceh2uvmj.execute-api.us-east-1.amazonaws.com/dev/getweather?lat=41.0262417&lon=-73.62819639999998&units=imperial
 - [serverless deploy function -f hello] (can be used to quick deploy individual functions)
 - [serverless invoke -f hello -l] (invoke individual function)
 - serverless logs -f app -t (log stream of function named "app")
@@ -30,3 +30,11 @@ API for weather client. Used to manipulate the lat/ long request from the client
 - AWS "internal server error" was fixed by installing npm packages
 - Path in index file has to match [GET] path in YML
 - handler: index.handler in YML refers to "module.exports.handler = serverless(app)" in index.js, where "app" is the name of the function (also referred to in the YML)
+
+# Test Data
+
+- lat: 41.0262417
+- lon: -73.62819639999998
+- units: imperial
+
+  
