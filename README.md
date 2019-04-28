@@ -2,10 +2,15 @@
 
 API for weather client. Used to manipulate the lat/ long request from the client, and also to hide the API key for the weather service.
 
+# Endpoint Return Examples
+
+- Current: {"result":{"date":"Sat Apr 27","temp":51.84,"icon":"02d","description":"Clouds"}}
+
 # Installation
 
 - npm install
 - serverless deploy -v
+- Add Open Weathermap API key to .env file
 
 # Teardown
 
