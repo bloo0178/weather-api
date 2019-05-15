@@ -16,7 +16,7 @@ describe("Forecast Tests", () => {
 	});
 
 	test("test connection to OpenWeatherMap", () => {
-		console.dir(result);
+		//console.dir(result);
 		expect(result).toHaveLength(4);
 	});
 
